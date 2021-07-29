@@ -16,7 +16,7 @@ function addItem() {
     li.appendChild(liTitel);
 
     if (titel === "") {
-        alert("You must write something!");
+        alert("you must type task");
     } else {
         document.getElementById("list").appendChild(li);
     }
@@ -34,6 +34,7 @@ function addItem() {
         };
     }
 }
+
 // let second = t * 60;
 // const typeTime = document.querySelector(".time")
 

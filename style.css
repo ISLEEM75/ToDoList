@@ -3,8 +3,8 @@
 }
 
 .container {
-    width: 85%;
-    margin: 0 auto;
+    width: 70%;
+    margin: auto;
 }
 
 .titel {
@@ -48,7 +48,7 @@ ul {
 }
 
 ul li {
-    cursor: pointer;
+    border: 1px solid #555;
     position: relative;
     padding: 12px 8px 12px 40px;
     background: #eee;
@@ -60,7 +60,8 @@ ul li {
     position: absolute;
     right: 0;
     top: 0;
-    padding: 12px 16px 12px 16px;
+    padding: 13px;
+    cursor: pointer;
 }
 
 .Delete:hover {
